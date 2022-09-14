@@ -1,0 +1,38 @@
+.board {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:  2px solid black;
+}
+
+.key {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+}
+
+.keyrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+    background-color: silver;
+}
+
+.guess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
